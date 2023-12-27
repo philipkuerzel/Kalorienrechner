@@ -1,9 +1,7 @@
-
 let bmr;
 let calories;
 
-const calculateCalories = (event) => {
-
+const calculateCalories = () => {
     const age = document.querySelector("#age").value
     const sex = document.querySelector("#gender").value
     const bodyWeight = document.querySelector("#weight").value
@@ -17,6 +15,7 @@ const calculateCalories = (event) => {
         bmr = 655 + 9.6 * bodyWeight + 1.8 * bodyHeight - 4.7 * age
     }
     calories = bmr * pal
+
     document.querySelector("#resultBMR").textContent = `${bmr.toFixed(0)} kcal`
     document.querySelector("#resultPal").textContent = `${calories.toFixed(0)} kcal`
 }
