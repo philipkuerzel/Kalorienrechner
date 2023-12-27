@@ -27,21 +27,21 @@
     
         <label for="activityLevel">PAL-Wert (Physical Activity Level)</label>
         <select id="pal">
-            <option value="1.2">Sitzend (wenig oder keine Bewegung)</option>
-            <option value="1.375">Leicht aktiv (leichte körperliche Aktivität/Sport 1-3 Tage/Woche)</option>
-            <option value="1.55">Mäßig aktiv (moderate körperliche Aktivität/Sport an 3-5 Tagen/Woche)</option>
-            <option value="1.725">Sehr aktiv (starke körperliche Aktivität/Sport an 6-7 Tagen/Woche)</option>
-            <option value="1.9">Extrem aktiv (sehr starke tägliche körperliche Aktivität/Sport oder 2X tägliches Training)</option>
+            <option value="1.2">Sitting - little or no movement</option>
+            <option value="1.375">Lightly active - light physical activity/sport 1-3 days/week</option>
+            <option value="1.55">Moderately active - moderate physical activity/sport 3-5 days/week</option>
+            <option value="1.725">Very active - heavy physical activity/sports 6-7 days/week</option>
+            <option value="1.9">Highly active - very high daily physical activity/sport or 2X daily training</option>
         </select>
     
-        <button type="button" onclick="calculateCalories()" >Kalorien berechnen</button>
+        <button type="button" onclick="calculateCalories()" >Calculate Calories</button>
         
         <div id="result">
             <div id="result">
-                <h3>Ergebnis</h3>
-                <h3>Grundumsatz</h3>
+                <h3>Result</h3>
+                <h3>BMR</h3>
                 <div id="resultBMR"></div>
-                <h3>Gesamtumsatz</h3>
+                <h3>Total Calories</h3>
                 <div id="resultPal"></div>
             </div>
         </div>
