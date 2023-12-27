@@ -1,5 +1,5 @@
 # Calorie Calculator
-This is a simple web-based calorie calculator that calculates the Basal Metabolic Rate (BMR) and total daily calorie intake based on user input.
+This is a web-based calorie calculator that calculates the Basal Metabolic Rate (BMR) and total daily calorie intake based on user input.
 
 ## How to Use
  - Open the HTML File:
