@@ -34,10 +34,18 @@
             <option value="1.9">Extrem aktiv (sehr starke tägliche körperliche Aktivität/Sport oder 2X tägliches Training)</option>
         </select>
     
-        <button type="button" onclick="calculateCalories(); return false">Kalorien berechnen</button>
-        </form>
-    
-        <div id="result"></div>
+        <button type="button" onclick="calculateCalories()" >Kalorien berechnen</button>
+        
+        <div id="result">
+            <div id="result">
+                <h3>Ergebnis</h3>
+                <h3>Grundumsatz</h3>
+                <div id="resultBMR"></div>
+                <h3>Gesamtumsatz</h3>
+                <div id="resultPal"></div>
+            </div>
+        </div>
+    </form>
     </div>
 
     <script src="./assets/js/main.js"></script>
