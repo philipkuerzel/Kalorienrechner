@@ -19,7 +19,7 @@ This is a web-based calorie calculator that calculates the Basal Metabolic Rate 
    66 + 13.7 × bodyWeight + 5 × bodyHeight − 6.8 × age
 
  - BMR for Female: 
-   655+9.6×bodyWeight+1.8×bodyHeight−4.7×age
+   655 + 9.6 × bodyWeight + 1.8 × bodyHeight − 4.7 × age
    
  - Total Calories: 
    BMR×PAL
