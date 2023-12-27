@@ -45,6 +45,7 @@ input, select {
 button {
     background:  rgb(86, 96, 235);
     color: white;
+    font-size: 1.25rem;
     border: none;
     padding: 10px;
     cursor: pointer;
